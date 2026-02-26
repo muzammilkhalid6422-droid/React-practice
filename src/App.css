@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  display: flex;
+  position: absolute;
+  margin-top: -630px;
+}
+.nav .logo img{
+  width: 120px; 
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  margin-top: 45px;
+  padding-left:270px ;  
+}
+.nav ul li a{
+  text-decoration: none;
+  padding: 0px 10px;
+  color: white;
+}
+.nav ul li:hover a{
+  background-color: rgb(171, 165, 165);
+  border-radius: 8px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background: linear-gradient(to right, #0b4f8a, #1d7dc2);
+  color: white;
+ position: relative; 
+}
+.hero .hero-text h1{
+ font-size: xxx-large;
+ padding-left: 20px;
+}
+.hero-img  img{
+  width: 100%;
+  height: auto;
+ border-radius: 50px;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  bottom: -190px;
+  left: 0;
+  right: 0;
+}
+.card-item{
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  width: 18%;
+  box-shadow: 0px 4px 10px rgba(110, 103, 103, 0.3);
+}
+.page {
+  margin-top: 10%;
+  text-align: center;
+}
